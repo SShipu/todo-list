@@ -1,35 +1,32 @@
 body {
     font-family: Arial, sans-serif;
-}
-
-.columns {
+  }
+  
+ .columns {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
-    flex-wrap: wrap;
-}
-
-.column {
+  }
+  
+  .column {
     width: 30%;
     background: #f4f4f4;
     padding: 20px;
     border-radius: 18px;
     position: relative;
-    margin: 10px 0;
-}
+  }
 
-.column-header {
+  .column-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 20px;
-}
-
-.column-header h3 {
+  }
+  .column-header h3 {
     margin: 0;
-}
+  }
 
-.todo-item {
+  .todo-item {
     background: white;
     padding: 10px;
     margin: 10px 0;
@@ -39,32 +36,25 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-}
+  }
 
-.todo-content {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.todo-header {
+  .todo-header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-.todo-item-order {
-    margin-right: 10px;
-}
-.todo-item h3 {
+  }
+  
+  .todo-item h3 {
     margin: 0;
-}
-
-.todo-item p {
+  }
+  
+  .todo-item p {
     margin: 5px 0;
-}
+  }
 
-.context-menu {
+
+  
+  .context-menu {
     position: absolute;
     right: 10px;
     top: 10px;
@@ -72,44 +62,43 @@ body {
     border: 1px solid #ddd;
     border-radius: 5px;
     overflow: hidden;
-    z-index: 10;
-}
-
-.context-menu div {
+  }
+  
+  .context-menu div {
     padding: 5px 10px;
     cursor: pointer;
-}
-
-.context-menu div:hover {
+  }
+  
+  .context-menu div:hover {
     background: #f0f0f0;
-}
-
-.add-todo {
+  }
+  
+  .add-todo {
     margin: 10px 0;
-}
-
-.add-todo input, .add-todo textarea {
+  }
+  
+  .add-todo input, .add-todo textarea {
     width: calc(100% - 20px);
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
     border: 1px solid #ddd;
-}
-
-.add-todo button {
+  }
+  
+  .add-todo button {
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
     background: #007BFF;
     color: white;
     cursor: pointer;
-}
-
-.add-todo button:hover {
+  }
+  
+  .add-todo button:hover {
     background: #0056b3;
-}
-
-.add-todo-button {
+  }
+  
+  .add-todo-button {
     text-align: left;
     width: 100%;
     color: #8e97a9;
@@ -119,26 +108,11 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 10px 0;
-}
-
-.add-todo-button img {
+  }
+  .add-todo-button img {
     width: 26px;
-}
-
-.add-todo-button:hover {
+  }
+  .add-todo-button:hover {
     color: #000;
-}
-
-/* ----------- Responsive ----------*/
-@media (max-width: 1024px) {
-    .column {
-        width: 45%;
-    }
-}
-
-@media (max-width: 768px) {
-    .column {
-        width: 100%;
-    }
-}
+  }
+  
